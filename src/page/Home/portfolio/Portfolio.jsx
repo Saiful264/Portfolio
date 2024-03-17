@@ -14,11 +14,11 @@ const Portfolio = () => {
     <div data-aos="fade-up"
     data-aos-anchor-placement="center-bottom" className="pt-8">
       <div className="text-center pb-2">
-        <h2 className="font-bold text-3xl">My Work & Projects</h2>
-        <p className="lg:w-96 mx-auto text-lg font-semibold py-4">
+        <h2 className="font-bold text-3xl italic underline">My Work & Projects</h2>
+        {/* <p className="lg:w-96 mx-auto text-lg font-semibold py-4">
           Obviously I'm a Web Designer.Experienced with all stages of the
           development.
-        </p>
+        </p> */}
       </div>
       <div className="grid lg:grid-cols-3">
         <div className="col-span-1 cursor-pointer p-2 bg-white mx-auto rounded-xl group">
@@ -30,8 +30,7 @@ const Portfolio = () => {
             relative 
             overflow-hidden 
             rounded-xl
-          "
-            >
+          ">
               <img
                 className="
               object-cover 
@@ -44,12 +43,9 @@ const Portfolio = () => {
                 alt="Room"
               />
               <div
-                className="
-            absolute
+                className="absolute
             top-3
-            right-3
-          "
-              >
+            right-3">
               </div>
             </div>
             <div className="font-semibold text-lg p-2">CHEF'S RECIPE</div>

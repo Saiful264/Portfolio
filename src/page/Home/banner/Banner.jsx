@@ -19,11 +19,10 @@ const Banner = () => {
           <h2 className="text-5xl lg:text-8xl text-slate-800 font-bold py-5">
             Saiful Islam
           </h2>
-          <h1 className="text-2xl lg:text-3xl">I,m Web Developer</h1>
-          <p className="lg:w-96 py-6">
-            From France, Paris. I have rich experience in web design, also I am
-            good at wordpress. I love to talk with you about our unique.
-          </p>
+          <h1 className="text-2xl lg:text-3xl py-8">I,m Web Developer</h1>
+          {/* <p className="lg:w-96 py-6">
+          Dedicated programmer eager to explore new challenges and opportunities in the tech world
+          </p> */}
           <RusemeButton/>
         </div>
       </div>

@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <div data-aos="zoom-in-up" className="py-8">
       <div>
-        <h2 className="text-4xl text-center font-bold py-9">
+        <h2 className="text-4xl italic underline text-center font-bold py-9">
           PROFESSIONAL SKILLS
         </h2>
       </div>

@@ -8,7 +8,7 @@ const ContactMe = () => {
   return (
     <section id="contact" className="py-8">
       <div className="text-center pb-6">
-        <h2 className="text-3xl font-bold tracking-widest py-4">CONTACT ME</h2>
+        <h2 className="text-3xl font-bold italic underline tracking-widest py-4">CONTACT ME</h2>
         {/* <h1 className="font-medium">LET’S Talk About Ideas</h1> */}
       </div>
       <div className="hero ">
